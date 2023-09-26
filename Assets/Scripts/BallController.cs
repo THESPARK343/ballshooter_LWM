@@ -41,7 +41,7 @@ public class BallController : MonoBehaviour
     {
         rb_ball = this.GetComponent<Rigidbody>();
         aimGuide = GameObject.Find("AimGuide");
-        rb_ball.AddForce(aimGuide.transform.forward * 25, ForceMode.VelocityChange);
+        rb_ball.AddForce(aimGuide.transform.forward * 30, ForceMode.VelocityChange);
     }    
 
 
